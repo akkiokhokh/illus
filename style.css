@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    text-decoration: none;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6EE;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6EE;
+}
+
+nav{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 40px;
+}
+
+nav p{
+    font-size: 20px;
+}
+nav span{
+font-weight: 600;
+}
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+#underline{
+    
+    border-bottom: 2px solid rgba(92, 90, 90, 0.877);
+}
+
+
+
+
+#heading{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+#heading h1{
+    font-size: 54px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+#heading p{
+   
+    width: 34%;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 25px;
+    background-color: #232323;
+    color: white;
+    border-radius: 100px;
+    border: none;
+}
+
+
+#image-div{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
+
+#btm{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 80vh;
+    display: flex;
+}
+#left{
+ background-color: #F6F6EE;
+ width: 50%;
+ border-right: 2px dashed rgba(92, 90, 90, 0.877);
+ 
+}
+
+#lefttxt{
+    /* border: 2px solid red; */
+    text-align: right;
+    padding-right: 20px;
+}
+#lefttxt h1{
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#line{
+    width: 40px;
+    height: 2px;
+    background-color: rgba(92, 90, 90, 0.877);
+    float: right;
+    margin-top: 23px;
+}
+
+#lefttxt p {
+    margin-top: 60px;
+    text-transform: capitalize;
+    /* width: 200px; */
+    /* border: 2px solid red; */
+
+}
+
+#right{
+ background-color:#F6F6EE;
+ width: 50%;
+ display: flex;
+flex-direction: column;
+padding-left: 20px;
+
+}
+
+.img-div{
+    /* border: 2px solid red; */
+    display: flex;
+   gap: 20px ;
+   width: 300px;
+   margin-top: 20px;
+}
+
+.img-div img{
+    width: 60px;
+    height: 60px;
+}
+
+.para{
+    width: 250px;
+}
+
+.img-div p {
+    margin-top: 3px;
+}
+
+h3{
+    font-size: 26px;
+    font-weight: 400;
+}
